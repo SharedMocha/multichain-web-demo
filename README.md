@@ -71,8 +71,15 @@ Then start MultiChain again:
   
     multichaind chain1 -daemon
 
+Setup Tomcat and Clone this repor into tomcat wed directory so it can show index.php page
+*sudo apt-get install tomcat 8
 
+*sudo apt-get install -y php7.0 libapache2-mod-php7.0 php7.0-cli php7.0-common php7.0-mbstring php7.0-gd php7.0-intl php7.0-xml php7.0-mysql php7.0-mcrypt php7.0-zip
 
+*sudo apt-get install php-curl
+
+*Git clone this repo into web folder of ubuntu
+*If using amazon AWS Give the public ip address and port not private address of node
 Configure the Web Demo
 ----------------------
 
